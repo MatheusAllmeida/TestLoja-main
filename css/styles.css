@@ -1,0 +1,43 @@
+body {
+    background-color: #f8f9fa;
+    padding-top: 56px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+/* cor do botão add ao carrinho*/
+.btn-add-cart {
+    background-color: #ff9800; /* Cor verde */
+    border-color: #ff9800; /* Cor da borda */
+    color: white; /* Cor do texto */
+}
+
+.btn-add-cart:hover {
+    background-color: #ff9800; /* Cor verde mais escura para o hover */
+    border-color: #ff9800; /* Cor da borda no hover */
+}
+
+/* CSS para fixar os botões sem sobrepor */
+.fixed-buttons {
+    position: fixed;
+    bottom: 20px; /* Ajuste a distância do rodapé conforme necessário */
+    right: 20px; /* Ajuste a distância da lateral conforme necessário */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaço entre os botões */
+    z-index: 1000; /* Garante que os botões fiquem sobre o conteúdo */
+}
+
+.fixed-buttons button {
+    width: 150px; /* Largura fixa para os botões */
+}
+
+.carousel-item img {
+    height: 500px; /* Ajuste a altura conforme necessário */
+    object-fit: cover; /* Faz a imagem cobrir o espaço, mantendo a proporção */
+}
